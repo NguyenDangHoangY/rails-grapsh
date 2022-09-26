@@ -5,6 +5,7 @@ module Types
     field :id, ID, null: false
     field :title, String
     field :body, String
+    field :comments, [Types::CommentType], null: true
     field :created_at, GraphQL::Types::ISO8601DateTime, null: false
     field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
     # field :id, ID, null: false

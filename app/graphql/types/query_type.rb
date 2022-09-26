@@ -5,5 +5,6 @@ module Types
 
     field :fetch_notes, resolver: Queries::FetchNotes
     field :fetch_note, resolver: Queries::FetchNote
+    field :comments, resolver: Queries::Comments
   end
 end
